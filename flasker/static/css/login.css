@@ -1,0 +1,61 @@
+body {
+	
+	margin: 0;
+	padding: 0;
+	background-image: url(../image/login.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	
+}
+
+
+#loginBox {
+	
+	margin: 0 auto;
+	margin-top: 200px;
+	padding: 20px 50px;
+	background-color: #00000090;
+	width: 400px;
+	height: 300px;
+	border-radius: 10px;
+	text-align: center;
+	
+}
+
+#loginBox h1 {
+	
+	color: white;
+}
+
+#loginBox .inputBox {
+	
+	margin-top: 50px;
+	
+}
+
+#loginBox .inputBox .inputText {
+	
+	margin-top: 20px;
+	
+}
+#loginBox .inputBox .inputText input {
+	
+	border-radius: 5px;
+	padding: 10px;
+	color: black;
+/* 	height: 30px; */
+	text-align: center;
+	outline: none;
+/* 	border-style: dotted; */
+	font-size: initial;
+	
+}
+
+
+#loginBox .inputBox .inputButton {
+	margin-top: 30px;
+	width: 150px;
+	height: 30px;
+	border-radius: 20px;
+	background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
